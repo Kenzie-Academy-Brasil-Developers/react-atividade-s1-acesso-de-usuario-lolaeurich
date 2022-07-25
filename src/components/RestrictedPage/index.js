@@ -3,17 +3,21 @@ function RestrictedPage( {isLoggedIn, user, Login, Logout} ){
         <>
             {isLoggedIn ? 
             <>
-           <h2>Bem-vindo {user}</h2>
-           <button onClick={Logout}>
+           <h2 className="Tittle">Bem-vindo, {user}!</h2>
+           <div className="DivLogout">
+           <button className="ButtonLogout" onClick={Logout}>
                Logout
            </button>
+           </div>
            </>
             :
             <>
-           <h2>Você não pode acessar essa página</h2> 
-           <button onClick={Login}>
-                Login
-           </button>
+           <h2 className="Tittle">Você não pode acessar essa página.</h2> 
+           <div className="DivButton">
+            <button className= "ButtonLogin" onClick={Login}>
+                    Login
+            </button>
+           </div>
            </>
             }
         

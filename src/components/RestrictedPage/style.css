@@ -1,0 +1,75 @@
+.Tittle {
+    text-align: center;
+
+    color: white;
+    font-size: xxx-large;
+    font-weight: 900;
+
+    padding: 100px;
+}
+
+.DivLogout {
+    text-align: center;
+}
+
+.DivButton {
+    text-align: center;
+    perspective: 320px;
+}
+
+.ButtonLogout {
+  width:200px;
+    height:70px;
+
+    background: linear-gradient(to left top, #14378c 50%, #1a82b2 50%);
+    border-style: none;
+    border-radius: 10px;
+    color:#fff;
+
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+
+    outline: none;
+    cursor: pointer;
+
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+}
+
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+
+.ButtonLogin {
+    width:200px;
+    height:70px;
+
+    background: linear-gradient(to left top, #14378c 50%, #1a82b2 50%);
+    border-style: none;
+    border-radius: 10px;
+    color:#fff;
+
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+
+    outline: none;
+    cursor: pointer;
+
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.ButtonLogin:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+
